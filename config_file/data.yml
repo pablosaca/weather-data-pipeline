@@ -1,0 +1,5 @@
+database:
+  database_name: weather
+  tables_name:
+    historical: weather_historical
+    predictions: weather_predictions
