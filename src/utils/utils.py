@@ -4,7 +4,7 @@ from pathlib import Path
 import yaml
 
 
-def load_config_file(filepath: Union[Path, str] = "data/config_file/data.yml"):
+def load_config_file(filepath: Union[Path, str] = "config_file/data.yml"):
     """
     Carga fichero de configuración
     """
