@@ -3,7 +3,7 @@ pipeline {
 
     // Los triggers van arriba, fuera de los stages
     triggers {
-        cron('0 13 * * *')
+        cron('0 13 * * 1,2,4,5')
     }
 
     stages {
